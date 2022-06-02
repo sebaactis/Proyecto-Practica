@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Heebo', sans-serif; }
+
+body {
+  position: relative;
+  min-height: 100vh; }
+
+.encabezado {
+  background-color: #480057; }
+  .encabezado nav .container-fluid .logo {
+    width: 10rem;
+    border-radius: 50%;
+    box-sizing: border-box; }
+  .encabezado nav .container-fluid .navBar ul li a {
+    color: white;
+    font-size: 1.4rem; }
+
+main .titulo {
+  background-image: url("../imagenes/fondo-titulo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 1rem;
+  height: 25rem; }
+  main .titulo .titulo__texto {
+    background-color: rgba(172, 172, 172, 0.363);
+    height: 15rem;
+    border-radius: 1%;
+    margin-top: 2rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    main .titulo .titulo__texto .titulo__parrafo {
+      color: white;
+      font-size: 1.3rem;
+      text-align: center; }
+  main .titulo h1 {
+    text-align: center;
+    color: white; }

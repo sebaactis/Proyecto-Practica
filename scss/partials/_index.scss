@@ -1,5 +1,5 @@
 main {
-    .titulo {
+    #titulo {
         background-image: url("../imagenes/fondo-titulo.jpg");
         background-repeat: no-repeat;
         background-size: cover;
@@ -30,6 +30,15 @@ main {
         }
 
     }
+    
+    #productos {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: row;
 
+        .card {
+            margin: 0 1rem;
+        }
+    }
 
 }
